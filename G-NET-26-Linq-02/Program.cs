@@ -31,8 +31,25 @@ namespace G_NET_26_Linq_02
 
 
             ////5. Check if the ID list contains 9
+            //int[] ids = { 3, 9, 13, 18 };
+            //var result = ids.Contains(9);
+
+
+            ////5. Check if the ID list contains 9
             //var result = ProductList.Select(p => p.ProductID).Contains(9);
             //Console.WriteLine(result);
+
+
+            ////6. Group all products by Category and print each group with its product count.
+            //var result = ProductList.GroupBy(p => p.Category);
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine($"{group.Key} - {group.Count()}");
+            //}
+
+
+
+
 
 
 
