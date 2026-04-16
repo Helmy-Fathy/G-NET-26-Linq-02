@@ -3,6 +3,7 @@ using LINQ.Models;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Diagnostics.Metrics;
+using System.Net.WebSockets;
 using static LINQ.DataSources.Source;
 namespace G_NET_26_Linq_02
 {
@@ -88,6 +89,13 @@ namespace G_NET_26_Linq_02
 
             ////12. Get a distinct list of all product categories
             //var result = ProductList.Select(p => p.Category).Distinct().ToList();
+
+
+            ////13. find product IDs that are in setA but NOT in setB
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
+            //var result = setA.Except(setB);
+
 
 
 
