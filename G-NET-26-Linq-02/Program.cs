@@ -48,6 +48,18 @@ namespace G_NET_26_Linq_02
             //}
 
 
+            ////7. Group products by Category and project only product names per group
+            //var result = ProductList.GroupBy(p => p.Category,p => p.ProductName);
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine($"[{group.Key}]");
+            //    foreach (var name in group)
+            //        Console.WriteLine($"  - {name}");
+            //}
+
+
+
+
 
 
 
