@@ -121,7 +121,11 @@ namespace G_NET_26_Linq_02
             //var tableOf7 = Enumerable.Range(1, 10).Select(n => $"7 x {n} = {7 * n}");
             //foreach (var row in tableOf7)
             //    Console.WriteLine(row);
-            
+
+
+            ////19. Generate even numbers between 1 and 30.
+            //var evenNumbers = Enumerable.Range(1, 30).Select(n => n % 2 == 0);
+
 
 
 
