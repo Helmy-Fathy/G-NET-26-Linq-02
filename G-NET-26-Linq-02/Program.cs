@@ -1,6 +1,8 @@
-﻿using LINQ.Models;
+﻿using LINQ.DataSources;
+using LINQ.Models;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Diagnostics.Metrics;
 using static LINQ.DataSources.Source;
 namespace G_NET_26_Linq_02
 {
@@ -62,6 +64,19 @@ namespace G_NET_26_Linq_02
             //var result = ProductList.GroupBy(p => p.Category).Where(g => g.Count() > 3).Select(g => g.Key);
             //foreach (var category in result)
             //    Console.WriteLine(category);
+
+
+            ////9. Using QUERY SYNTAX, group customers by Country, and for each group select { Country, Count, TotalOrderValue }.
+            //var result = from c in CustomerList
+            //             group c by c.Country into g
+            //             select new
+            //             {
+            //                 Country = g.Key,
+            //                 Count = g.Count(),
+            //                 TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+            //             };
+
+
 
 
 
