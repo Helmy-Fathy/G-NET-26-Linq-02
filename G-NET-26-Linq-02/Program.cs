@@ -81,6 +81,11 @@ namespace G_NET_26_Linq_02
             //var totalUnitsInStock = ProductList.Sum(p => p.UnitsInStock);
 
 
+            ////11. Find the CHEAPEST and MOST EXPENSIVE product prices
+            //var cheapestPrice = ProductList.Min(p => p.UnitPrice);
+            //var mostExpensivePrice = ProductList.Max(p => p.UnitPrice);
+
+
 
 
 
