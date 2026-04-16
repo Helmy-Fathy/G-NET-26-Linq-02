@@ -113,6 +113,11 @@ namespace G_NET_26_Linq_02
             //var result = ProductList.First(p => p.UnitPrice > 50);
 
 
+            ////17. Try to get the first product with a price > $500. it returns null instead of throwing.
+            //var result = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+
+
+
 
 
 
