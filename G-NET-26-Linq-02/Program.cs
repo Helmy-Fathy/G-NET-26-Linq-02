@@ -24,7 +24,18 @@ namespace G_NET_26_Linq_02
             //var result = ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25);
             //foreach (var item in result)
             //    Console.WriteLine(item);
-            
+
+
+            ////4. Check if ALL products in the "Seafood" category are in stock
+            //var result = ProductList.Where(p => p.Category == "Seafood").All(p => p.UnitsInStock > 0);
+
+
+            ////5. Check if the ID list contains 9
+            //var result = ProductList.Select(p => p.ProductID).Contains(9);
+            //Console.WriteLine(result);
+
+
+
 
 
 
