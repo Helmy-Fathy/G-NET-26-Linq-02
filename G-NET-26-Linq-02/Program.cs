@@ -77,6 +77,11 @@ namespace G_NET_26_Linq_02
             //             };
 
 
+            ////10. Calculate the total number of units in stock across all products
+            //var totalUnitsInStock = ProductList.Sum(p => p.UnitsInStock);
+
+
+
 
 
 
