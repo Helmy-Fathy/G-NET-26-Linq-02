@@ -1,4 +1,5 @@
 ﻿using LINQ.DataSources;
+using LINQ.Helpers;
 using LINQ.Models;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -95,6 +96,13 @@ namespace G_NET_26_Linq_02
             //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
             //int[] setB = { 3, 6, 9, 12, 15, 13 };
             //var result = setA.Except(setB);
+
+
+            ////14. Find countries that appear in list1 but NOT in list2 (case -insensitive).
+            //    string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //    string[] list2 = { "france", "SPAIN", "Italy" };
+            //var result = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
+
 
 
 
