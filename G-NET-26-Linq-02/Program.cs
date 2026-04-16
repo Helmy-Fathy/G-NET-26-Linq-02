@@ -104,6 +104,11 @@ namespace G_NET_26_Linq_02
             //var result = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
 
 
+            ////15. Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18.
+            //var result = ProductList.ToDictionary(p => p.ProductID, p => p);
+            //Console.WriteLine(result[18]);
+
+
 
 
 
