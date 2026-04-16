@@ -86,6 +86,10 @@ namespace G_NET_26_Linq_02
             //var mostExpensivePrice = ProductList.Max(p => p.UnitPrice);
 
 
+            ////12. Get a distinct list of all product categories
+            //var result = ProductList.Select(p => p.Category).Distinct().ToList();
+
+
 
 
 
