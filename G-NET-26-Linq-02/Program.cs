@@ -109,6 +109,12 @@ namespace G_NET_26_Linq_02
             //Console.WriteLine(result[18]);
 
 
+            ////16. Get the first product whose price is greater than $50.
+            //var result = ProductList.First(p => p.UnitPrice > 50);
+
+
+
+
 
 
 
