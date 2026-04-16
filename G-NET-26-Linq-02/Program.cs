@@ -127,6 +127,12 @@ namespace G_NET_26_Linq_02
             //var evenNumbers = Enumerable.Range(1, 30).Select(n => n % 2 == 0);
 
 
+            ////20. Concatenate the first 3 product names with the first 3 customer company names into a single sequence.
+            //var result = ProductList.Select(p => p.ProductName).Take(3).Concat(CustomerList.Select(c => c.CompanyName).Take(3));
+
+
+
+
 
 
 
