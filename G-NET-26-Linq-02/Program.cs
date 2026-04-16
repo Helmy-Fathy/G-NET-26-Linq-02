@@ -117,6 +117,13 @@ namespace G_NET_26_Linq_02
             //var result = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
 
 
+            ////18. Generate a multiplication table row for 7
+            //var tableOf7 = Enumerable.Range(1, 10).Select(n => $"7 x {n} = {7 * n}");
+            //foreach (var row in tableOf7)
+            //    Console.WriteLine(row);
+            
+
+
 
 
 
